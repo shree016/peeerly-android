@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Peeerly</string>
+
+    <!-- The WEB client ID. It is public (not the secret). Don't put the Android client ID here. -->
+    <string name="google_web_client_id" translatable="false">482636059779-4jndt19ue5vvf2sk6fd188e7t1fa589i.apps.googleusercontent.com</string>
+
+    <string name="loading">Loading page</string>
+    <string name="error_title">Couldn\'t load this page</string>
+    <string name="error_body">Check your internet connection and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="go_home">Go to start page</string>
+
+    <string name="leave_quiz_title">Leave the quiz?</string>
+    <string name="leave_quiz_message">You may miss questions while you are away.</string>
+    <string name="stay">Stay</string>
+    <string name="leave">Leave</string>
+
+    <string name="downloading">Downloading…</string>
+    <string name="download_saved">Saved to Downloads</string>
+    <string name="download_failed">Download failed. Please try again.</string>
+    <string name="no_viewer">Saved to Downloads. No app on this phone can open it.</string>
+    <string name="no_file_picker">No app on this phone can pick files.</string>
+    <string name="no_app_for_link">No app on this phone can open that link.</string>
+
+    <string name="google_no_account">Add a Google account to this phone first.</string>
+    <string name="google_cancelled">Google sign-in didn\'t finish.</string>
+    <string name="google_refused">Use your college Google account. If you signed up with a password, log in with that.</string>
+    <string name="google_failed">Google sign-in failed. Please try again.</string>
+</resources>

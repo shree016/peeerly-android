@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shown while the first page loads; the app keeps it until the page has drawn. -->
+    <style name="Theme.Peeerly.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/canvas</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Peeerly</item>
+    </style>
+
+    <style name="Theme.Peeerly" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">@color/sky</item>
+        <item name="android:colorPrimary">@color/sky</item>
+        <item name="android:windowBackground">@color/canvas</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">@bool/light_system_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/light_system_bars</item>
+    </style>
+
+    <style name="PillButton">
+        <item name="android:background">@drawable/bg_pill</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">22dp</item>
+        <item name="android:paddingEnd">22dp</item>
+        <item name="android:textColor">@color/card</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

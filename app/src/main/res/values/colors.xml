@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The website's own light and dark page colours (its theme-color). -->
+    <color name="page_light">#F3F6FE</color>
+    <color name="page_dark">#121626</color>
+
+    <!-- Light mode. Dark mode overrides these in values-night. -->
+    <color name="canvas">@color/page_light</color>
+    <color name="card">#FFFFFF</color>
+    <color name="ink">#171B2E</color>
+    <color name="muted">#58607A</color>
+    <color name="sky">#6F8FF5</color>
+    <color name="placeholder">#E1E7F6</color>
+    <color name="ripple">#33171B2E</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="canvas">@color/page_dark</color>
+    <color name="card">#1C2135</color>
+    <color name="ink">#E8EBF7</color>
+    <color name="muted">#A3AAC2</color>
+    <color name="placeholder">#232A42</color>
+    <color name="ripple">#33E8EBF7</color>
+</resources>
